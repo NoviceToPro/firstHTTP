@@ -1,0 +1,12 @@
+<form>
+  First name:<br>
+  <input type="email" name="firstname" [(ngModel)] = "username">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" [(ngModel)]="password">
+  <br><br>
+  <input type="submit" (click) = "login()" value="Submit">
+</form> 
+<h1>
+hello {{ username + '. your password is '+ password }}
+</h1>

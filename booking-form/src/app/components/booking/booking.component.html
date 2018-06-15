@@ -1,0 +1,21 @@
+<form>
+  <label>First Name</label>
+  <br>
+  <input type="text" name="firstName" [(ngModel)]="firstName">
+  <br>
+  <label>Last Name</label>
+  <br>
+  <input type="text" name="lastName" [(ngModel)]="lastName">
+  <br>
+  <label>Age</label>
+  <br>
+  <input type="number"name="age" [(ngModel)]="age">
+  <br>
+  <label>Date</label>
+  <br>
+  <input type="date" name="date" [(ngModel)]="date">
+  <br>
+
+  <button type="button" (click)="login()" value="submit">Submit</button>
+</form>
+
